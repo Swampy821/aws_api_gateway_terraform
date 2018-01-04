@@ -2,6 +2,7 @@
 
 ### See Example folder for working code. 
 
+[Docs are always useful](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-create-api.html)
 
 
 #### Set AWS Provider
