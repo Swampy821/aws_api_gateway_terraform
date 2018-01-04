@@ -51,7 +51,8 @@ resource "aws_api_gateway_resource" "proxy_service_id_resource" {
   rest_api_id = "${aws_api_gateway_rest_api.api_gateway.id}"
   parent_id   = "${aws_api_gateway_resource.proxy_service_root_resource.id}" # This links to the resource in example 1 to make the url.
   path_part   = "{id}" # This can be any variable you would like, it just needs to be surrounded by brackets.
-}```
+}
+```
 
 
 #### Create Method for Endpoint
